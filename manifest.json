@@ -3,9 +3,13 @@
   "name": "Beautify your GitHub avatar",
   "version": "1.0",
   "description": "Beautify rounded corners from GitHub avatar.",
+  "icons": {
+    "32": "images/icon-32.png",
+    "180": "images/icon-180.png"
+  },
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "images/icon.png"
+    "default_icon": "images/icon-32.png"
   },
   "content_scripts": [
     {
